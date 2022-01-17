@@ -1,11 +1,14 @@
-# Jcla1 Custom-vim-tap
+# Custom Homebrew Vim tap
 
-## How do I install these formulae?
+In [homebrew/core](https://github.com/Homebrew/homebrew-core) the version of Vim
+that is built is `--without-x` or any other GUI option. The `unnamedplus`
+register is only available via X11 (or similar).
 
-`brew install jcla1/custom-vim-tap/<formula>`
+Until
+[homebrew/core#74264](https://github.com/Homebrew/homebrew-core/pull/74264) is
+merged (if that ever happens) I'm using this tap.
 
-Or `brew tap jcla1/custom-vim-tap` and then `brew install <formula>`.
+## How do I install Vim with this?
 
-## Documentation
+`brew install jcla1/custom-vim-tap/vim`
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
