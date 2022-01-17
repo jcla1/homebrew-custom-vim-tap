@@ -5,7 +5,7 @@ that is built is `--without-x` or any other GUI option. The `unnamedplus`
 register is only available via X11 (or similar).
 
 Until
-[homebrew/core#74264](https://github.com/Homebrew/homebrew-core/pull/74264) is
+[homebrew/core#93064](https://github.com/Homebrew/homebrew-core/pull/93064) is
 merged (if that ever happens) I'm using this tap.
 
 ## How do I install Vim with this?
